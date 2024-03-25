@@ -56,10 +56,8 @@ a:hover {
 }
 
 main {
-  /* adjust the padding */
-  /* set the min-height into 80vh */
   padding: 20px;
-  min-height: 80vh;
+  min-height: 70vh;
 }
 
 .service {
