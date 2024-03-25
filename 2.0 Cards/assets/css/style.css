@@ -8,6 +8,11 @@
 
 body {
   font-family: "Poppins";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2px;
 }
 
 img {
@@ -17,7 +22,7 @@ img {
 }
 
 .card {
-  max-width: 700px;
+  max-width: 500px;
   background-color: black;
   color: white;
   margin: 0 auto;
