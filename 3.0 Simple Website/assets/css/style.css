@@ -1,0 +1,70 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Poppins";
+}
+
+header {
+  padding: 10px 20px;
+}
+
+.logo {
+  font-size: 40px;
+  color: #6c63fe;
+}
+
+.intro {
+  width: 50%;
+  margin-top: 10px;
+}
+
+.main {
+  /* adjust the padding */
+  /* set the min-height into 80vh */
+  padding: 20px;
+  min-height: 80vh;
+}
+
+.service {
+  /* adjust the layout using flex */
+  display: flex;
+}
+
+.tile-image {
+  /* adjust the image properties here  */
+  width: 400px;
+  height: 400px;
+  background-position: center;
+  object-fit: cover;
+}
+
+/* add some design for you footer */
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+/* Using media queries are a popular technique for delivering a 
+   tailored style sheet to desktops, laptops, tablets,
+   and mobile phones */
+
+/* what should your website should look like in 800px below?  */
+@media (max-width: 800px) {
+  /* the design you put here will only appear when your broswer width get small */
+  .intro {
+    width: 100%;
+  }
+
+  .service {
+    flex-direction: column;
+  }
+
+  .service > * {
+    margin-top: 30px;
+  }
+}
